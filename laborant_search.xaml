@@ -1,0 +1,18 @@
+﻿<Window x:Class="exam.laborant_search"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:exam"
+        mc:Ignorable="d"
+        Title="laborant_search" Height="450" Width="800">
+    <Grid>
+        <Image Source="C:\Users\Чочаа\Downloads\Ресурсы для импорта\Ресурсы для импорта\laborant_2.png" HorizontalAlignment="Left" Height="101" Margin="27,29,0,0" VerticalAlignment="Top" Width="126"/>
+        <Image Source="C:\Users\Чочаа\Downloads\Ресурсы для импорта\Ресурсы для импорта\Screenshot_20201208_133250.jpg" HorizontalAlignment="Left" Height="102" Margin="355,18,0,0" VerticalAlignment="Top" Width="89" RenderTransformOrigin="-0.121,0.649"/>
+        <Button Content="выйти" HorizontalAlignment="Left" Margin="705,5,0,387.667" Width="78" Click="Button_Click_1"/>
+        <Label x:Name="fio_lbl" Content="" HorizontalAlignment="Left" Height="37" Margin="169,33,0,0" VerticalAlignment="Top" Width="109"/>
+        <Label Content="Должность - лаборант -&#xD;&#xA; исследователь" HorizontalAlignment="Left" Margin="165,81,0,0" VerticalAlignment="Top" Width="149" Height="46"/>
+        <Button Content="Работа с анализатором" HorizontalAlignment="Left" Height="65" Margin="38,224,0,0" VerticalAlignment="Top" Width="711" Click="Button_Click"/>
+
+    </Grid>
+</Window>
